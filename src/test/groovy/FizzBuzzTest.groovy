@@ -14,4 +14,10 @@ class FizzBuzzTest {
         assert (kataBattle.fizzbuzz.FizzBuzz.process(3) == "Fizz")
         assert (kataBattle.fizzbuzz.FizzBuzz.process(6) == "Fizz")
     }
+
+    @Test
+    void shouldReturnBuzzIfTheNumberIsAMultipleOf5() {
+        assert (kataBattle.fizzbuzz.FizzBuzz.process(5) == "Buzz")
+        assert (kataBattle.fizzbuzz.FizzBuzz.process(10) == "Buzz")
+    }
 }
