@@ -20,4 +20,10 @@ class FizzBuzzTest {
         assert (kataBattle.fizzbuzz.FizzBuzz.process(5) == "Buzz")
         assert (kataBattle.fizzbuzz.FizzBuzz.process(10) == "Buzz")
     }
+
+    @Test
+    void shouldReturnFizzBuzzIfTheNumberIsAMultipleOfboth3and5() {
+        assert (kataBattle.fizzbuzz.FizzBuzz.process(15) == "FizzBuzz")
+        assert (kataBattle.fizzbuzz.FizzBuzz.process(30) == "FizzBuzz")
+    }
 }
