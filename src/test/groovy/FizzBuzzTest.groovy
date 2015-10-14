@@ -6,6 +6,6 @@ class FizzBuzzTest {
 
     @Test
     void shouldReturnTheNumberItIsHanded() {
-        assert(FizzBuzz.process(1) == 1)    
+        assert(kataBattle.fizzbuzz.FizzBuzz.process(1) == 1)
     }
 }
